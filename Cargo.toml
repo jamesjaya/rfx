@@ -1,0 +1,17 @@
+[package]
+name = "rfx"
+version = "1.0.0"
+authors = ["James Jaya <me@jamesjaya.com>"]
+edition = "2018"
+license = "Apache-2.0"
+description = "Your command line currency converter"
+readme = "README.md"
+homepage = "https://github.com/jamesjaya/rfx"
+repository = "https://github.com/jamesjaya/rfx"
+keywords = ["cli", "currency", "converter"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = {version = "~2.27.0", features = ["yaml"]}
+json = "~0.12.4"
+reqwest = { version = "0.10", features = ["blocking"] }

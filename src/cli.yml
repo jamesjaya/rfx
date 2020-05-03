@@ -1,0 +1,13 @@
+name: rfx
+version: "1.0.0"
+author: James Jaya <me@jamesjaya.com>
+about: Your command line currency converter
+args:
+  - from:
+      help: Source currency
+      index: 1
+      required: true
+  - to:
+      help: Target currency
+      index: 2
+      required: true
